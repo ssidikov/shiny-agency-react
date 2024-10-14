@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/shiny-agency-react/static/js/main.c50727eb.js",
+    "main.js": "/shiny-agency-react/static/js/main.f3d5b25c.js",
     "static/media/404.svg": "/shiny-agency-react/static/media/404.fc9ddee48547c71d5534244cfc2a911c.svg",
     "static/media/home-illustration.svg": "/shiny-agency-react/static/media/home-illustration.3c3e6fa7e38c96aae00aea10c3cbf9cd.svg",
     "index.html": "/shiny-agency-react/index.html",
-    "main.c50727eb.js.map": "/shiny-agency-react/static/js/main.c50727eb.js.map"
+    "main.f3d5b25c.js.map": "/shiny-agency-react/static/js/main.f3d5b25c.js.map"
   },
   "entrypoints": [
-    "static/js/main.c50727eb.js"
+    "static/js/main.f3d5b25c.js"
   ]
 }

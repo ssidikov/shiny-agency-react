@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client'
+import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Survey from './pages/Survey'
@@ -24,9 +24,9 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/survey/:questionNumber" element={<Survey />} />
-        <Route path="*" element={<Error />} />
         <Route path="/results" element={<Results />} />
         <Route path="/freelances" element={<Freelances />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </Router>
   </React.StrictMode>

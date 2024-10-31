@@ -7,8 +7,8 @@ describe('Card', () => {
     render(
       <ThemeProvider>
         <Card
-          title="Developpeur React"
-          label="Magicien frontend"
+          title="Developpeur frontend"
+          label="Freelance"
           picture="/myPicture.png"
         />
       </ThemeProvider>
@@ -16,21 +16,21 @@ describe('Card', () => {
     const cardPicture = screen.getByRole('img')
     const cardTitle = screen.getByText(/Developpeur/i)
     expect(cardPicture.src).toBe('http://localhost/myPicture.png')
-    expect(cardTitle.textContent).toBe(' Developpeur React ')
+    expect(cardTitle.textContent).toBe(' Developpeur frontend ')
   })
   test('Should add ⭐️ around title', async () => {
     render(
       <ThemeProvider>
         <Card
-          title="Harry Potter"
-          label="Magicien frontend"
+          title="Developpeur frontend"
+          label="Freelance"
           picture="/myPicture.png"
         />
       </ThemeProvider>
     )
-    const cardTitle = screen.getByText(/Harry/i)
+    const cardTitle = screen.getByText(/Developpeur/i)
     const parentNode = cardTitle.closest('div')
     fireEvent.click(parentNode)
-    expect(cardTitle.textContent).toBe('⭐️ Harry Potter ⭐️')
+    expect(cardTitle.textContent).toBe('⭐️ Developpeur frontend ⭐️')
   })
 })

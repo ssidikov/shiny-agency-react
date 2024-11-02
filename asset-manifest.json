@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/shiny-agency-react/static/js/main.f3d5b25c.js",
-    "static/media/404.svg": "/shiny-agency-react/static/media/404.fc9ddee48547c71d5534244cfc2a911c.svg",
-    "static/media/home-illustration.svg": "/shiny-agency-react/static/media/home-illustration.3c3e6fa7e38c96aae00aea10c3cbf9cd.svg",
+    "main.js": "/shiny-agency-react/static/js/main.01d6f6fe.js",
+    "static/media/404.svg": "/shiny-agency-react/static/media/404.2dc323147393d46ac5777a38d4508787.svg",
+    "static/media/home-illustration.svg": "/shiny-agency-react/static/media/home-illustration.4641bfe89ff61786d219b1616ed999e4.svg",
     "index.html": "/shiny-agency-react/index.html",
-    "main.f3d5b25c.js.map": "/shiny-agency-react/static/js/main.f3d5b25c.js.map"
+    "main.01d6f6fe.js.map": "/shiny-agency-react/static/js/main.01d6f6fe.js.map"
   },
   "entrypoints": [
-    "static/js/main.f3d5b25c.js"
+    "static/js/main.01d6f6fe.js"
   ]
 }

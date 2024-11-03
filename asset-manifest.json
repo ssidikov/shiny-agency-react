@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.js": "/shiny-agency-react/static/js/main.01d6f6fe.js",
+    "main.js": "/shiny-agency-react/static/js/main.08607037.js",
+    "static/media/empty.svg": "/shiny-agency-react/static/media/empty.a0b94b247d32c29a540ddae7d6617ab6.svg",
     "static/media/404.svg": "/shiny-agency-react/static/media/404.2dc323147393d46ac5777a38d4508787.svg",
     "static/media/home-illustration.svg": "/shiny-agency-react/static/media/home-illustration.4641bfe89ff61786d219b1616ed999e4.svg",
     "index.html": "/shiny-agency-react/index.html",
-    "main.01d6f6fe.js.map": "/shiny-agency-react/static/js/main.01d6f6fe.js.map"
+    "main.08607037.js.map": "/shiny-agency-react/static/js/main.08607037.js.map"
   },
   "entrypoints": [
-    "static/js/main.01d6f6fe.js"
+    "static/js/main.08607037.js"
   ]
 }
